@@ -17,26 +17,17 @@ You need to create competition environment.
 >pip install -r requirements.txt
 
 ---
-### How to train rl-agent
+### How to reproduce our environment results
 
->python rl_trainer/main.py
+```python
+cd /agent/dqn
+ls
+```
 
-By default-parameters, the total reward of training is shown below.
-
-![image](https://github.com/jidiai/Competition_3v3snakes/blob/master/assets/training.png)
-
-
-You can edit different parameters, for example
-
->python rl_trainer/main.py --algo "bicnet" --epsilon 0.8
-
-Baseline performance:
-
-You can locally evaluation your model.
-
->python evaluation_local.py --my_ai rl --opponent random
-
-![image](https://github.com/jidiai/Competition_3v3snakes/blob/master/assets/baseline.png)
+```python
+# for example:
+python dqn_non_due_trainer.py
+```
 
 
 ---
@@ -49,10 +40,6 @@ For example,
 >python run_log.py --my_ai "random" --opponent "rl"
 
 ---
-### Ready to submit 
-
-1. Random policy --> **agent/random/submission.py**
-2. RL policy --> **all files in agent/rl/**
 
 ---
 ### Watch reply locally
