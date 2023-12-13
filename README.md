@@ -5,8 +5,6 @@
 <!-- ![image](https://github.com/jidiai/Competition_3v3snakes/blob/master/assets/snakesdemo.gif) -->
 <img src="https://github.com/jidiai/Competition_3v3snakes/blob/master/assets/snakesdemo.gif" alt="Competition_3v3snakes" width="500" height="250" align="middle" />
 
-Check details in Jidi Competition [RLChina2021智能体竞赛](http://www.jidiai.cn/compete_detail?compete=6)
-
 ---
 ### Dependency
 You need to create competition environment.
@@ -25,7 +23,7 @@ ls
 ```
 
 ```python
-# for example:
+# for
 python dqn_non_due_trainer.py
 ```
 
